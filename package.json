@@ -1,0 +1,16 @@
+{
+  "name": "yuguji",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "tsc": "tsc",
+    "start1": "ts-node MyArrayTest.ts",
+    "start3": "ts-node hunderedTimes.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
