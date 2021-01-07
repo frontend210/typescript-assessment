@@ -5,6 +5,7 @@
   "scripts": {
     "tsc-watch": "nodemon --watch ./* --ext ts,json --exec tsc",
     "start1": "node dist/MyArrayTest.js",
+    "start2": "node dist/ErrorHandlingTest.js",
     "start3": "node dist/hundredTimes.js"
   },
   "author": "",
