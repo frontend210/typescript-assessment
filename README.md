@@ -1,8 +1,9 @@
+## Before proceeding
+1. Install dependencies using `npm install`, 
+2. Compile typescript files and watch changes using `npm run tsc-watch`
+
 ## (1) Type safe MyArray class
-
-After install dependencies, please run the following command and check console logs.
-
-`npm run start1`
+Run `npm run start1` and check console logs.
 
 ## (2) Error handling
 
@@ -92,10 +93,7 @@ async (req, res, next) => {
 ```
 
 ## (3) Cache it!!
-
-After install dependencies, please run the following command and check console logs.
-
-`npm run start3`
+Run `npm run start3` and check console logs.
 
 ## (4) Clumsy query
 

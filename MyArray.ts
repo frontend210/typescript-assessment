@@ -12,7 +12,8 @@ class MyArray {
     }
 
     remove(value: string | number) {
-        this.collection = this.collection.filter(el => el !== value);
+        const index = this.collection.findIndex(el => el === value);
+        this.collection.splice(index, 1);
     }
 
     getValues() {

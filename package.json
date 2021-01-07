@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "tsc": "tsc",
-    "start1": "ts-node MyArrayTest.ts",
-    "start3": "ts-node hunderedTimes.ts"
+    "tsc-watch": "nodemon --watch ./* --ext ts,json --exec tsc",
+    "start1": "node dist/MyArrayTest.js",
+    "start3": "node dist/hundredTimes.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
