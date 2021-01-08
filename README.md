@@ -7,6 +7,8 @@ Run `npm run start1` and check console logs.
 
 ## (2) Error handling
 
+Run `npm run start2` and check console logs.
+
 I used to follow my own error handling practices, and 
 by investing a right solution on internet, I would propose below implementation.
 
