@@ -1,3 +1,5 @@
+I am Ke Li 
+
 ## Before proceeding
 1. Install dependencies using `npm install`, 
 2. Compile typescript files and watch changes using `npm run tsc-watch`
